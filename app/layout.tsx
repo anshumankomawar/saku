@@ -27,9 +27,8 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
-        <div className="border-b h-16 sticky top-0 bg-white">
+        <div className="z-10 border-b h-16 sticky top-0 bg-white">
           <div className="flex h-16 items-center px-4">
-            
             <Link href="/">
               <h1 className="scroll-m-20 text-3xl font-semibold tracking-tight pr-6">
                 saku
